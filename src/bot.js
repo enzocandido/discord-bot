@@ -20,8 +20,8 @@ const fs = require("fs");
 const client = new Client({
   intents: [
     GatewayIntentBits.Guilds,
-    GatewayIntentBits.GuildMessages,
-    GatewayIntentBits.MessageContent,
+    // GatewayIntentBits.GuildMessages,
+    // GatewayIntentBits.MessageContent,
   ],
 });
 
