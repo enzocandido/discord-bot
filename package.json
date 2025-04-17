@@ -1,16 +1,16 @@
 {
-  "name": "nz-bot",
+  "name": "discord-bot",
   "version": "1.0.0",
   "description": "",
   "main": "src/bot.js",
   "scripts": {
-    "test": "node ."
+    "test": "node .",
+    "start": "node src/bot.js"
   },
   "author": "Enzo Candido",
   "license": "ISC",
   "dependencies": {
     "@discordjs/rest": "^1.5.0",
-    "canvas": "^2.11.0",
     "chalk": "^4.1.2",
     "discord-api-types": "^0.37.35",
     "discord.js": "^14.7.1",
